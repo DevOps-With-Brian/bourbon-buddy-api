@@ -15,7 +15,7 @@ from .auth_dependencies import (
     ADMIN_USERNAME,
 )
 
-api_version = "0.1.0"
+api_version = "0.1.1"
 
 app = FastAPI(
     title="Bourbon Buddy API",
