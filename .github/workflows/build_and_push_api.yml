@@ -45,4 +45,4 @@ jobs:
           context: ./api
           file: ./api/Dockerfile
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/bourbon-buddy-api:latest,ghcr.io/${{ github.repository_owner }}/bourbon-buddy-api:${{ env.COMMITIZEN_VER }}
+          tags: ghcr.io/devops-with-brian/bourbon-buddy-api:latest,ghcr.io/devops-with-brian/bourbon-buddy-api:${{ env.COMMITIZEN_VER }}

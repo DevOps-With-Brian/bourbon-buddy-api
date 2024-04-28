@@ -45,4 +45,4 @@ jobs:
           context: ./api
           file: ./api/SqlDockerfile
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/bourbon-buddy-api-db-migration:latest,ghcr.io/${{ github.repository_owner }}/bourbon-buddy-api-db-migration:${{ env.COMMITIZEN_VER }}
+          tags: ghcr.io/devops-with-brian/bourbon-buddy-api-db-migration:latest,ghcr.io/devops-with-brian/bourbon-buddy-api-db-migration:${{ env.COMMITIZEN_VER }}
